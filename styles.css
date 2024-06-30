@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background-color: #0d0d0d;
+	color: white;
+	background-image: url('https://artlogic-res.cloudinary.com/w_2400,h_2400,c_limit,f_auto,fl_lossy/artlogicstorage/aubergineart/images/view/41259e92f11c27e84a0f2eafd8d28caep.png');
+}
+
+div {
+	border: 0px solid #fff;
+}
+
+span {
+	font-family: Arial,sans-serif;
+  	font-weight: normal;
+  	font-size: 12px;
+  	line-height: 16px;
+}
+
+p {
+	width: 15px;
+	text-align: center;
+	color: white;
+	background-color: rgba(0,0,0,.0);
+	border: 0px;
+	position: relative;
+	font-size: 10px;
+	vertical-align: top;
+}
+
+.span-text {
+	max-height: 24px;
+	line-height: 24px;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;									
+	font-size: 14px;
+	max-width: 100%;
+	min-width: 0;
+	display: block;
+}
+
+g-expandable-content {
+	transition: none 0s ease 0s;
+	display: block;
+	list-style: none;
+	line-height: 1.58;
+	text-align: left;
+	font-family: Arial,sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+table {
+	width: 100%;
+	max-width:700px;
+	table-layout: fixed;
+	border-collapse: collapse;
+	margin: auto;
+}	
+
+.container-table {
+	line-height: 1.58;
+	
+}
+
+.inner-table {
+	line-height: 20px;
+}
+
+tbody, tr {
+	border-collapse: collapse;
+	list-style: none;
+	line-height: 1.58;
+	text-align: left;
+	font-family: Arial,sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+td {
+	padding: 0;
+	border-collapse: collapse;
+	list-style: none;
+	text-align: left;
+	font-family: Arial,sans-serif;
+	font-weight: normal;
+}
+
+.td-game {
+	width: 50%;
+	vertical-align: bottom;
+	border: 1px solid rgba(0,0,0,.0);
+	line-height: 1.58;
+}
+
+.td-space {
+	padding-bottom: 4px;
+	width: 24px;
+	text-align: center;
+	vertical-align: middle;
+}	
+
+.td-text {
+	padding-bottom: 4px;
+	box-sizing: border-box;
+	width: 100%;
+}												
+
+th {
+	padding: 0;
+	padding-bottom: 4px;
+	box-sizing: border-box;
+	width: 24px;
+}
+
+.div-game-container {
+	font-size: 12px;
+	line-height: 16px;
+	padding: 12px 0 12px 16px;
+	background-color: #0d0d0d;
+}
+
+.div-game {
+	outline: 0;
+}
+
+.div-game-header {
+	padding-bottom: 8px;
+	vertical-align: top;
+	display: inline-block;
+	width: 100%;
+}
+
+.col-result {
+	width: calc(1*22px);
+  	text-align: center;
+}
+
+input {
+	width: 15px;
+	text-align: center;
+	color: white;
+	background-color: rgba(0,0,0,.0);
+	border: 0px;
+	position: relative;
+}
+
+p::first-letter {
+	font-size: 14px;
+	vertical-align: text-top;
+}
+
+
+p:empty:not(:focus)::before {
+  content: attr(data-placeholder);
+}
+
+@media screen and (max-width: 700px) {
+	.td-game {
+		display: block;
+		margin: auto;
+	}
+	.col {
+		display: block;
+		margin: auto;
+	}
+}
+
