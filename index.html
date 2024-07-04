@@ -4,1185 +4,556 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css"/> 
+        <link rel="stylesheet" href="css.css"/> 
     </head>
-    <body>   
-    	<div style="margin: auto; padding: 20px;">
-    		<img src="https://www.wimbledon.com/assets/images/logos/Wimbledon_logo_small.png">
-    		<h1> WIMBLEDON </h1>
-    	</div>
-    	<div style="width: 100%px; margin: auto; padding-top:50px; padding-bottom:100px">
-    	
-	<g-expandable-content>
-		<span>
-			<table class="container-table">
-				<tbody>
-					<tr>
-						<td class="td-game">
-							<div>
-								<div class="div-game-container">
-									
-	<div class='div-game'>
-		<div class='div-game-header'>
-			<div style='display: inline;'>
-				<span style='font-family: Arial,sans-serif-medium,sans-serif;'>Erste Runde</span>
-				<span style='font-family: Arial,sans-serif-light,sans-serif; margin: 0 2px;'>·</span>
-				<span style='opacity: .54;'>Platz&nbsp;7</span>
-			</div>
-			<div style='position: relative; float: right; margin-right: 16px;'>
-				<span>12:00</span>
-			</div>
-		</div>
-		<div>
-			<table class='inner-table'>
-				<colgroup>
-					<col style='width: 24px;'>
-					<col style='width: 24px; text-align: center;'>
-					<col style='width: 100%;'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col>
-				</colgroup>
-				<tbody>
-					<tr>
-						<th>
-							<div style='box-sizing: border-box;'>
-								<img style='vertical-align: middle;' alt='' height='24' src='https://ssl.gstatic.com/onebox/media/sports/logos/9toerdOg8xW4CRhDaZxsyw_48x48.png'>
-							</div>
-						</th>
-						<td class='td-space'>
-							<span style='opacity: .54;'></span>
-						</td>
-						<td class='td-text'>
-							<div>
-								<span class='span-text'>B. Ćorić</span>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td class='td-space'></td>
-					</tr>
-									    	
-					<tr>
-						<th>
-							<div style='box-sizing: border-box;'>
-								<img style='vertical-align: middle;' alt='' height='24' src='https://ssl.gstatic.com/onebox/media/sports/logos/zKLzoJVYz0bb6oAnPUdwWQ_48x48.png'>
-							</div>
-						</th>
-						<td class='td-space'>
-							<span style="opacity: .54;"></span>
-						</td>
-						<td class='td-text'>
-							<div>
-								<span class='span-text'>F. Meligeni Alves</span>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td class='td-space'></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
+	    
+	<div style="width: 100%; height: 20%; background-color: blue;">
+		<input class="round" type="radio" id="Achtelfinale"/>
+		<label for="Achtelfinale">Achtelfinale</label>
+		<input type="radio" id="Viertelfinale"/>
+		<label class="round" for="Viertelfinale">Viertelfinale</label>
+		<input type="radio" id="Halbfinale"/>
+		<label class="round" for="Halbfinale">Halbfinale</label>
+		<input type="radio" id="Finale"/>
+		<label class="round" for="Finale">Finale</label>
+		
+		<input class="wta" type="radio" id="wta"/>
+		<label for="wta">wta</label>
+		<input class="atp" type="radio" id="atp"/>
+		<label for="atp">atp</label>
 	</div>
-
-								</div>
-							</div>
-						</td>
+		
+	<!-- wta 8telfinale -->
+	<div class="page wta" style="	margin: auto; 
+					width: 80%; 
+					height: 80%; 
+					background-color: white; 
+					">
+		<div style="	width: 100%;
+				height: 100%;
+				overflow-y: scroll
+				">
+				
+			<div class="container">
+				<div class="kopfzeile">
+					<div style="display: inline;"><span>Achtelfinale · </span><span style='opacity: .54;'></span></div>
+					<div style="position: relative; float: right;"><span>Noch offen</span></div>
+				</div>
+				<div>
+					<table>
+						<colgroup>
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							<col style="width: 100%;">
 							
-						<td class="td-game">
-							<div>
-								<div class="div-game-container">
-									
-	<div class='div-game'>
-		<div class='div-game-header'>
-			<div style='display: inline;'>
-				<span style='font-family: Arial,sans-serif-medium,sans-serif;'>Erste Runde</span>
-				<span style='font-family: Arial,sans-serif-light,sans-serif; margin: 0 2px;'>·</span>
-				<span style='opacity: .54;'>Platz&nbsp;6</span>
-			</div>
-			<div style='position: relative; float: right; margin-right: 16px;'>
-				<span>12:00</span>
-			</div>
-		</div>
-		<div>
-			<table class='inner-table'>
-				<colgroup>
-					<col style='width: 24px;'>
-					<col style='width: 24px; text-align: center;'>
-					<col style='width: 100%;'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col>
-				</colgroup>
-				<tbody>
-					<tr>
-						<th>
-							<div style='box-sizing: border-box;'>
-								<img style='vertical-align: middle;' alt='' height='24' src='https://ssl.gstatic.com/onebox/media/sports/logos/cI5rCchv6SjDgZ5NuEaMMQ_48x48.png'>
-							</div>
-						</th>
-						<td class='td-space'>
-							<span style='opacity: .54;'></span>
-						</td>
-						<td class='td-text'>
-							<div>
-								<span class='span-text'>C. Garín</span>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td class='td-space'></td>
-					</tr>
-									    	
-					<tr>
-						<th>
-							<div style='box-sizing: border-box;'>
-								<img style='vertical-align: middle;' alt='' height='24' src='https://ssl.gstatic.com/onebox/media/sports/logos/8Cr5Gw-79PpIX2rIEZ7Pvg_48x48.png'>
-							</div>
-						</th>
-						<td class='td-space'>
-							<span style="opacity: .54;"></span>
-						</td>
-						<td class='td-text'>
-							<div>
-								<span class='span-text'>J. Shang</span>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td class='td-space'></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</div>
- 	
-								</div>
-							</div>
-						</td>
-					<tr>
-				</tbody>
-			</table>
-		</span>
-	</g-expandable-content>
-	
-	<g-expandable-content>
-		<span>
-			<table class="container-table">
-				<tbody>
-					<tr>
-						<td class="td-game">
-							<div>
-								<div class="div-game-container">
-									
-	<div class='div-game'>
-		<div class='div-game-header'>
-			<div style='display: inline;'>
-				<span style='font-family: Arial,sans-serif-medium,sans-serif;'>Erste Runde</span>
-				<span style='font-family: Arial,sans-serif-light,sans-serif; margin: 0 2px;'>·</span>
-				<span style='opacity: .54;'>Platz&nbsp;16</span>
-			</div>
-			<div style='position: relative; float: right; margin-right: 16px;'>
-				<span>12:00</span>
-			</div>
-		</div>
-		<div>
-			<table class='inner-table'>
-				<colgroup>
-					<col style='width: 24px;'>
-					<col style='width: 24px; text-align: center;'>
-					<col style='width: 100%;'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col>
-				</colgroup>
-				<tbody>
-					<tr>
-						<th>
-							<div style='box-sizing: border-box;'>
-								<img style='vertical-align: middle;' alt='' height='24' src='https://ssl.gstatic.com/onebox/media/sports/logos/z3JEQB3coEAGLCJBEUzQ2A_48x48.png'>
-							</div>
-						</th>
-						<td class='td-space'>
-							<span style='opacity: .54;'></span>
-						</td>
-						<td class='td-text'>
-							<div>
-								<span class='span-text'>L. Van Assche</span>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td class='td-space'></td>
-					</tr>
-									    	
-					<tr>
-						<th>
-							<div style='box-sizing: border-box;'>
-								<img style='vertical-align: middle;' alt='' height='24' src='https://ssl.gstatic.com/onebox/media/sports/logos/joYpsiaYi4GDCqhSRAq5Zg_48x48.png'>
-							</div>
-						</th>
-						<td class='td-space'>
-							<span style="opacity: .54;"></span>
-						</td>
-						<td class='td-text'>
-							<div>
-								<span class='span-text'>F. Fognini</span>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td class='td-space'></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</div>
-
-								</div>
-							</div>
-						</td>
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							<col style="width: 25px;">
 							
-						<td class="td-game">
-							<div>
-								<div class="div-game-container">
-									
-	<div class='div-game'>
-		<div class='div-game-header'>
-			<div style='display: inline;'>
-				<span style='font-family: Arial,sans-serif-medium,sans-serif;'>Erste Runde</span>
-				<span style='font-family: Arial,sans-serif-light,sans-serif; margin: 0 2px;'>·</span>
-				<span style='opacity: .54;'>Platz&nbsp;8</span>
+							<col style="width: 0px;">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th><div style='box-sizing: border-box;'>
+										<img style="vertical-align: top;" alt='' height='25' src=''>
+								</div></th>
+								<td class='td-space'><span></span></td>
+								<td class='td-text'><span class='span-text'>TBD</span></div></td>
+								
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								
+								<td class='td-space'></td>
+							</tr>		    	
+							<tr>
+								<th><div style='box-sizing: border-box;'>
+										<img style="vertical-align: top;" alt='' height='25' src=''>
+								</div></th>
+								<td class='td-space'><span></span></td>
+								<td class='td-text'><span class='span-text'>TBD</span></div></td>
+								
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								
+								<td class='td-space'></td>
+							</tr>	
+						</tbody>
+					</table>
+				</div>
 			</div>
-			<div style='position: relative; float: right; margin-right: 16px;'>
-				<span>12:00</span>
-			</div>
-		</div>
-		<div>
-			<table class='inner-table'>
-				<colgroup>
-					<col style='width: 24px;'>
-					<col style='width: 24px; text-align: center;'>
-					<col style='width: 100%;'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col>
-				</colgroup>
-				<tbody>
-					<tr>
-						<th>
-							<div style='box-sizing: border-box;'>
-								<img style='vertical-align: middle;' alt='' height='24' src='https://ssl.gstatic.com/onebox/media/sports/logos/h1FhPLmDg9AHXzhygqvVPg_48x48.png'>
-							</div>
-						</th>
-						<td class='td-space'>
-							<span style='opacity: .54;'></span>
-						</td>
-						<td class='td-text'>
-							<div>
-								<span class='span-text'>J.-L. Struff</span>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td class='td-space'></td>
-					</tr>
-									    	
-					<tr>
-						<th>
-							<div style='box-sizing: border-box;'>
-								<img style='vertical-align: middle;' alt='' height='24' src='https://ssl.gstatic.com/onebox/media/sports/logos/YEm-U_1zHCmIknmK5sNcIg_48x48.png'>
-							</div>
-						</th>
-						<td class='td-space'>
-							<span style="opacity: .54;"></span>
-						</td>
-						<td class='td-text'>
-							<div>
-								<span class='span-text'>F. Marozsán</span>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td class='td-space'></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</div>
- 	
-								</div>
-							</div>
-						</td>
-					<tr>
-				</tbody>
-			</table>
-		</span>
-	</g-expandable-content>
-	
-	<g-expandable-content>
-		<span>
-			<table class="container-table">
-				<tbody>
-					<tr>
-						<td class="td-game">
-							<div>
-								<div class="div-game-container">
-									
-	<div class='div-game'>
-		<div class='div-game-header'>
-			<div style='display: inline;'>
-				<span style='font-family: Arial,sans-serif-medium,sans-serif;'>Erste Runde</span>
-				<span style='font-family: Arial,sans-serif-light,sans-serif; margin: 0 2px;'>·</span>
-				<span style='opacity: .54;'>Platz&nbsp;14</span>
-			</div>
-			<div style='position: relative; float: right; margin-right: 16px;'>
-				<span>12:00</span>
-			</div>
-		</div>
-		<div>
-			<table class='inner-table'>
-				<colgroup>
-					<col style='width: 24px;'>
-					<col style='width: 24px; text-align: center;'>
-					<col style='width: 100%;'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col>
-				</colgroup>
-				<tbody>
-					<tr>
-						<th>
-							<div style='box-sizing: border-box;'>
-								<img style='vertical-align: middle;' alt='' height='24' src='https://ssl.gstatic.com/onebox/media/sports/logos/cI5rCchv6SjDgZ5NuEaMMQ_48x48.png'>
-							</div>
-						</th>
-						<td class='td-space'>
-							<span style='opacity: .54;'>19</span>
-						</td>
-						<td class='td-text'>
-							<div>
-								<span class='span-text'>N. Jarry</span>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td class='td-space'></td>
-					</tr>
-									    	
-					<tr>
-						<th>
-							<div style='box-sizing: border-box;'>
-								<img style='vertical-align: middle;' alt='' height='24' src='https://ssl.gstatic.com/onebox/media/sports/logos/H23oIEP6qK-zNc3O8abnIA_48x48.png'>
-							</div>
-						</th>
-						<td class='td-space'>
-							<span style="opacity: .54;"></span>
-						</td>
-						<td class='td-text'>
-							<div>
-								<span class='span-text'>D. Shapovalov</span>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td class='td-space'></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</div>
-
-								</div>
-							</div>
-						</td>
+			
+			<div class="container">
+				<div class="kopfzeile">
+					<div style="display: inline;"><span>Achtelfinale · </span><span style='opacity: .54;'></span></div>
+					<div style="position: relative; float: right;"><span>Noch offen</span></div>
+				</div>
+				<div>
+					<table>
+						<colgroup>
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							<col style="width: 100%;">
 							
-						<td class="td-game">
-							<div>
-								<div class="div-game-container">
-									
-	<div class='div-game'>
-		<div class='div-game-header'>
-			<div style='display: inline;'>
-				<span style='font-family: Arial,sans-serif-medium,sans-serif;'>Erste Runde</span>
-				<span style='font-family: Arial,sans-serif-light,sans-serif; margin: 0 2px;'>·</span>
-				<span style='opacity: .54;'>Platz&nbsp;2</span>
-			</div>
-			<div style='position: relative; float: right; margin-right: 16px;'>
-				<span>12:00</span>
-			</div>
-		</div>
-		<div>
-			<table class='inner-table'>
-				<colgroup>
-					<col style='width: 24px;'>
-					<col style='width: 24px; text-align: center;'>
-					<col style='width: 100%;'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col>
-				</colgroup>
-				<tbody>
-					<tr>
-						<th>
-							<div style='box-sizing: border-box;'>
-								<img style='vertical-align: middle;' alt='' height='24' src='https://ssl.gstatic.com/onebox/media/sports/logos/iGHMbfNfFYBxRwqi_v8L3w_48x48.png'>
-							</div>
-						</th>
-						<td class='td-space'>
-							<span style='opacity: .54;'>10</span>
-						</td>
-						<td class='td-text'>
-							<div>
-								<span class='span-text'>G. Dimitrow</span>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td class='td-space'></td>
-					</tr>
-									    	
-					<tr>
-						<th>
-							<div style='box-sizing: border-box;'>
-								<img style='vertical-align: middle;' alt='' height='24' src='https://ssl.gstatic.com/onebox/media/sports/logos/xyh1vmZ-xJH2iJCKjqS1Ow_48x48.png'>
-							</div>
-						</th>
-						<td class='td-space'>
-							<span style="opacity: .54;"></span>
-						</td>
-						<td class='td-text'>
-							<div>
-								<span class='span-text'>D. Lajović</span>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td class='td-space'></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</div>
- 	
-								</div>
-							</div>
-						</td>
-					<tr>
-				</tbody>
-			</table>
-		</span>
-	</g-expandable-content>
-	
-	<g-expandable-content>
-		<span>
-			<table class="container-table">
-				<tbody>
-					<tr>
-						<td class="td-game">
-							<div>
-								<div class="div-game-container">
-									
-	<div class='div-game'>
-		<div class='div-game-header'>
-			<div style='display: inline;'>
-				<span style='font-family: Arial,sans-serif-medium,sans-serif;'>Erste Runde</span>
-				<span style='font-family: Arial,sans-serif-light,sans-serif; margin: 0 2px;'>·</span>
-				<span style='opacity: .54;'>Platz&nbsp;10</span>
-			</div>
-			<div style='position: relative; float: right; margin-right: 16px;'>
-				<span>12:00</span>
-			</div>
-		</div>
-		<div>
-			<table class='inner-table'>
-				<colgroup>
-					<col style='width: 24px;'>
-					<col style='width: 24px; text-align: center;'>
-					<col style='width: 100%;'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col>
-				</colgroup>
-				<tbody>
-					<tr>
-						<th>
-							<div style='box-sizing: border-box;'>
-								<img style='vertical-align: middle;' alt='' height='24' src=''>
-							</div>
-						</th>
-						<td class='td-space'>
-							<span style='opacity: .54;'></span>
-						</td>
-						<td class='td-text'>
-							<div>
-								<span class='span-text'>P. Kotow</span>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td class='td-space'></td>
-					</tr>
-									    	
-					<tr>
-						<th>
-							<div style='box-sizing: border-box;'>
-								<img style='vertical-align: middle;' alt='' height='24' src='https://ssl.gstatic.com/onebox/media/sports/logos/jSgw5z0EPOLzdUi-Aomq7Q_48x48.png'>
-							</div>
-						</th>
-						<td class='td-space'>
-							<span style="opacity: .54;"></span>
-						</td>
-						<td class='td-text'>
-							<div>
-								<span class='span-text'>J. Thompson</span>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td class='td-space'></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</div>
-
-								</div>
-							</div>
-						</td>
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							<col style="width: 25px;">
 							
-						<td class="td-game">
-							<div>
-								<div class="div-game-container">
-									
-	<div class='div-game'>
-		<div class='div-game-header'>
-			<div style='display: inline;'>
-				<span style='font-family: Arial,sans-serif-medium,sans-serif;'>Erste Runde</span>
-				<span style='font-family: Arial,sans-serif-light,sans-serif; margin: 0 2px;'>·</span>
-				<span style='opacity: .54;'>Platz&nbsp;15</span>
+							<col style="width: 0px;">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th><div style='box-sizing: border-box;'>
+										<img style="vertical-align: top;" alt='' height='25' src=''>
+								</div></th>
+								<td class='td-space'><span></span></td>
+								<td class='td-text'><span class='span-text'>TBD</span></div></td>
+								
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								
+								<td class='td-space'></td>
+							</tr>		    	
+							<tr>
+								<th><div style='box-sizing: border-box;'>
+										<img style="vertical-align: top;" alt='' height='25' src=''>
+								</div></th>
+								<td class='td-space'><span></span></td>
+								<td class='td-text'><span class='span-text'>TBD</span></div></td>
+								
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								
+								<td class='td-space'></td>
+							</tr>	
+						</tbody>
+					</table>
+				</div>
 			</div>
-			<div style='position: relative; float: right; margin-right: 16px;'>
-				<span>12:00</span>
+			
+			<div style="width: 100%; height: 25px;"></div>
+			
+			<div class="container">
+				<div class="kopfzeile">
+					<div style="display: inline;"><span>Achtelfinale · </span><span style='opacity: .54;'></span></div>
+					<div style="position: relative; float: right;"><span>Noch offen</span></div>
+				</div>
+				<div>
+					<table>
+						<colgroup>
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							<col style="width: 100%;">
+							
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							
+							<col style="width: 0px;">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th><div style='box-sizing: border-box;'>
+										<img style="vertical-align: top;" alt='' height='25' src=''>
+								</div></th>
+								<td class='td-space'><span></span></td>
+								<td class='td-text'><span class='span-text'>TBD</span></div></td>
+								
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								
+								<td class='td-space'></td>
+							</tr>		    	
+							<tr>
+								<th><div style='box-sizing: border-box;'>
+										<img style="vertical-align: top;" alt='' height='25' src=''>
+								</div></th>
+								<td class='td-space'><span></span></td>
+								<td class='td-text'><span class='span-text'>TBD</span></div></td>
+								
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								
+								<td class='td-space'></td>
+							</tr>	
+						</tbody>
+					</table>
+				</div>
 			</div>
-		</div>
-		<div>
-			<table class='inner-table'>
-				<colgroup>
-					<col style='width: 24px;'>
-					<col style='width: 24px; text-align: center;'>
-					<col style='width: 100%;'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col class='col-result'>
-					<col>
-				</colgroup>
-				<tbody>
-					<tr>
-						<th>
-							<div style='box-sizing: border-box;'>
-								<img style='vertical-align: middle;' alt='' height='24' src='https://ssl.gstatic.com/onebox/media/sports/logos/joYpsiaYi4GDCqhSRAq5Zg_48x48.png'>
-							</div>
-						</th>
-						<td class='td-space'>
-							<span style='opacity: .54;'></span>
-						</td>
-						<td class='td-text'>
-							<div>
-								<span class='span-text'>M. Arnaldi</span>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td class='td-space'></td>
-					</tr>
-									    	
-					<tr>
-						<th>
-							<div style='box-sizing: border-box;'>
-								<img style='vertical-align: middle;' alt='' height='24' src='https://ssl.gstatic.com/onebox/media/sports/logos/wj9uZvn_vZrelLFGH8fnPA_48x48.png'>
-							</div>
-						</th>
-						<td class='td-space'>
-							<span style="opacity: .54;">29</span>
-						</td>
-						<td class='td-text'>
-							<div>
-								<span class='span-text'>F. Tiafoe</span>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td>
-							<div style='direction: ltr; text-align: center;'>
-								<div>
-									<p contenteditable='True' data-placeholder='·'></p>
-								</div>
-							</div>
-						</td>
-						<td class='td-space'></td>
-					</tr>
-				</tbody>
-			</table>
+			
+			<div class="container">
+				<div class="kopfzeile">
+					<div style="display: inline;"><span>Achtelfinale · </span><span style='opacity: .54;'></span></div>
+					<div style="position: relative; float: right;"><span>Noch offen</span></div>
+				</div>
+				<div>
+					<table>
+						<colgroup>
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							<col style="width: 100%;">
+							
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							
+							<col style="width: 0px;">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th><div style='box-sizing: border-box;'>
+										<img style="vertical-align: top;" alt='' height='25' src=''>
+								</div></th>
+								<td class='td-space'><span></span></td>
+								<td class='td-text'><span class='span-text'>TBD</span></div></td>
+								
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								
+								<td class='td-space'></td>
+							</tr>		    	
+							<tr>
+								<th><div style='box-sizing: border-box;'>
+										<img style="vertical-align: top;" alt='' height='25' src=''>
+								</div></th>
+								<td class='td-space'><span></span></td>
+								<td class='td-text'><span class='span-text'>TBD</span></div></td>
+								
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								
+								<td class='td-space'></td>
+							</tr>	
+						</tbody>
+					</table>
+				</div>
+			</div>
+			
+			<div style="width: 100%; height: 25px;"></div>
+			
+			<div class="container">
+				<div class="kopfzeile">
+					<div style="display: inline;"><span>Achtelfinale · </span><span style='opacity: .54;'></span></div>
+					<div style="position: relative; float: right;"><span>Noch offen</span></div>
+				</div>
+				<div>
+					<table>
+						<colgroup>
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							<col style="width: 100%;">
+							
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							
+							<col style="width: 0px;">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th><div style='box-sizing: border-box;'>
+										<img style="vertical-align: top;" alt='' height='25' src=''>
+								</div></th>
+								<td class='td-space'><span></span></td>
+								<td class='td-text'><span class='span-text'>TBD</span></div></td>
+								
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								
+								<td class='td-space'></td>
+							</tr>		    	
+							<tr>
+								<th><div style='box-sizing: border-box;'>
+										<img style="vertical-align: top;" alt='' height='25' src=''>
+								</div></th>
+								<td class='td-space'><span></span></td>
+								<td class='td-text'><span class='span-text'>TBD</span></div></td>
+								
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								
+								<td class='td-space'></td>
+							</tr>	
+						</tbody>
+					</table>
+				</div>
+			</div>
+			
+			<div class="container">
+				<div class="kopfzeile">
+					<div style="display: inline;"><span>Achtelfinale · </span><span style='opacity: .54;'></span></div>
+					<div style="position: relative; float: right;"><span>Noch offen</span></div>
+				</div>
+				<div>
+					<table>
+						<colgroup>
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							<col style="width: 100%;">
+							
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							
+							<col style="width: 0px;">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th><div style='box-sizing: border-box;'>
+										<img style="vertical-align: top;" alt='' height='25' src=''>
+								</div></th>
+								<td class='td-space'><span></span></td>
+								<td class='td-text'><span class='span-text'>TBD</span></div></td>
+								
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								
+								<td class='td-space'></td>
+							</tr>		    	
+							<tr>
+								<th><div style='box-sizing: border-box;'>
+										<img style="vertical-align: top;" alt='' height='25' src=''>
+								</div></th>
+								<td class='td-space'><span></span></td>
+								<td class='td-text'><span class='span-text'>TBD</span></div></td>
+								
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								
+								<td class='td-space'></td>
+							</tr>	
+						</tbody>
+					</table>
+				</div>
+			</div>
+			
+			<div style="width: 100%; height: 25px;"></div>
+			
+			<div class="container">
+				<div class="kopfzeile">
+					<div style="display: inline;"><span>Achtelfinale · </span><span style='opacity: .54;'></span></div>
+					<div style="position: relative; float: right;"><span>Noch offen</span></div>
+				</div>
+				<div>
+					<table>
+						<colgroup>
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							<col style="width: 100%;">
+							
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							
+							<col style="width: 0px;">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th><div style='box-sizing: border-box;'>
+										<img style="vertical-align: top;" alt='' height='25' src=''>
+								</div></th>
+								<td class='td-space'><span></span></td>
+								<td class='td-text'><span class='span-text'>TBD</span></div></td>
+								
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								
+								<td class='td-space'></td>
+							</tr>		    	
+							<tr>
+								<th><div style='box-sizing: border-box;'>
+										<img style="vertical-align: top;" alt='' height='25' src=''>
+								</div></th>
+								<td class='td-space'><span></span></td>
+								<td class='td-text'><span class='span-text'>TBD</span></div></td>
+								
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								
+								<td class='td-space'></td>
+							</tr>	
+						</tbody>
+					</table>
+				</div>
+			</div>
+			
+			<div class="container">
+				<div class="kopfzeile">
+					<div style="display: inline;"><span>Achtelfinale · </span><span style='opacity: .54;'></span></div>
+					<div style="position: relative; float: right;"><span>Noch offen</span></div>
+				</div>
+				<div>
+					<table>
+						<colgroup>
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							<col style="width: 100%;">
+							
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							<col style="width: 25px;">
+							
+							<col style="width: 0px;">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th><div style='box-sizing: border-box;'>
+										<img style="vertical-align: top;" alt='' height='25' src=''>
+								</div></th>
+								<td class='td-space'><span></span></td>
+								<td class='td-text'><span class='span-text'>TBD</span></div></td>
+								
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								
+								<td class='td-space'></td>
+							</tr>		    	
+							<tr>
+								<th><div style='box-sizing: border-box;'>
+										<img style="vertical-align: top;" alt='' height='25' src=''>
+								</div></th>
+								<td class='td-space'><span></span></td>
+								<td class='td-text'><span class='span-text'>TBD</span></div></td>
+								
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								<td><div><p contenteditable='True' data-placeholder='·'></p></div></td>
+								
+								<td class='td-space'></td>
+							</tr>	
+						</tbody>
+					</table>
+				</div>
+			</div>
+			
+			
+			
+			
+		<!-- -->
 		</div>
 	</div>
- 	
-								</div>
-							</div>
-						</td>
-					<tr>
-				</tbody>
-			</table>
-		</span>
-	</g-expandable-content>
 	
-	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="page wta" style="margin: auto; width: 80%; height: 80%; background-color: white; border: 1px solid black"><span style="color:black">2 wta</span></div>
+	<div class="page wta" style="margin: auto; width: 80%; height: 80%; background-color: white; border: 1px solid black"><span style="color:black">3 wta</span></div>
+	<div class="page wta" style="margin: auto; width: 80%; height: 80%; background-color: white; border: 1px solid black"><span style="color:black">4 wta</span></div>
+	
+	<div class="page atp" style="margin: auto; width: 80%; height: 80%; background-color: white; border: 1px solid black"><span style="color:black">1 atp</span></div>
+	<div class="page atp" style="margin: auto; width: 80%; height: 80%; background-color: white; border: 1px solid black"><span style="color:black">2 atp</span></div>
+	<div class="page atp" style="margin: auto; width: 80%; height: 80%; background-color: white; border: 1px solid black"><span style="color:black">3 atp</span></div>
+	<div class="page atp" style="margin: auto; width: 80%; height: 80%; background-color: white; border: 1px solid black"><span style="color:black">4 atp</span></div>
+	
+	<div class="loader" style="	width: 80%; 
+					height: 80%; 
+					position: absolute; 
+					top: 20%;
+					left: 10%; 
+					background-color: #0d0d0d; 
+					display: none; 
+					flex-direction: column;
+					justify-content: center;  
+					align-items :center;">
+		<img src="https://www.gstatic.com/ui/v1/activityindicator/loading_24.gif">	
+	</div>					
+								
 	 <script type="text/javascript"> 
+	 	// pages control
+	 	var bool = 0;
+	 	var m = 0; 
+	 	async function swap(i) {
+	 		// loading animation start
+	 		var load_div = document.getElementsByClassName("loader")[0];
+	 		load_div.style.display = "flex";
+	 		// select 
+	 		m = i;
+	 		var wta_pages = document.getElementsByClassName("page wta");
+	 		var atp_pages = document.getElementsByClassName("page atp");
+	 		if (bool == 0) {
+	 			pages = wta_pages;
+	 			for (let j = 0; j < atp_pages.length; j ++){
+	 				atp_pages[j].style.display = "none";
+	 				atp_pages[j].style.position = "absolute";
+	 			}
+	 		}
+	 		else {
+	 			pages = atp_pages;
+	 			for (let j = 0; j < wta_pages.length; j ++){
+	 				wta_pages[j].style.display = "none";
+	 				wta_pages[j].style.position = "absolute";
+	 			}
+	 		}
+	 		for (let j = 0; j < pages.length; j ++){
+	 			if (j !== i){
+	 				pages[j].style.display = "none";
+	 				pages[j].style.position = "absolute";
+	 			}
+	 			else { 
+	 				pages[j].style.display = "block"; 
+	 				pages[j].style.position = "relative";
+	 			}
+	 		}
+	 		// waiting smooth load 
+	 		await new Promise(r => setTimeout(r, 1000));
+	 		// loading animation end
+	 		load_div.style.display = "none";
+	 	}
+	 	
+		var ipts = document.getElementsByClassName('round');
+		for (let i = 0; i < ipts.length; i ++){
+			ipts[i].onclick = function() {swap(i)};
+		}
+		
+		var wta_button = document.getElementsByClassName('wta')[0];
+		var atp_button = document.getElementsByClassName('atp')[0];
+		
+		wta.onclick = function() {bool = 0; swap(m)};
+		atp.onclick = function() {bool = 1; swap(m)};
+		
+		//url control
+	 
 	 	function parse() {
 	 	
   			var games = [...document.querySelectorAll('.div-game')].map(el => [...el.querySelectorAll('p')].map(el => el.textContent)); // matrix 
