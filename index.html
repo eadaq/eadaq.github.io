@@ -4,7 +4,7 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css.css"/> 
+        <link rel="stylesheet" href="style.css"/> 
     </head>
     <body>
 	 
@@ -524,7 +524,7 @@
 		let p = document.querySelectorAll('p')
 		var config = { attributes: true, childList: true, subtree: true, characterDataOldValue: true };
 		var observer = new MutationObserver((list) => {
-  			history.pushState({}, null, "file:///home/eada/Desktop/github/eadaq.github.io/html.html?" + decode());
+  			history.pushState({}, null, "https://eadaq.github.io/index.html?" + decode());
 		});
 		for (let i=0; i < p.length; i++){
 			observer.observe(p[i], config);
@@ -548,7 +548,7 @@
 			try {
 	  			encode(window.location.href);
 	  		} catch (exceptionVar) {
-	  			history.pushState({}, null, "file:///home/eada/Desktop/github/eadaq.github.io/html.html?");
+	  			history.pushState({}, null, "https://eadaq.github.io/index.html?");
 	  		}
 		});
 		
