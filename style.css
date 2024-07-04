@@ -8,7 +8,7 @@
 html, body {
 	width: 100%;
 	height: 100%;
-	background: black;
+	background: white;
 	color: white;
 	overflow: hidden;
 }
@@ -49,9 +49,12 @@ td {
 	border-radius: 9px;
 	width: 80%;
 	min-width: 298px;
-	padding: 15px 15px 10px 15px;
+	padding: 15px 15px 15px 15px;
 	background-color: #0d0d0d;
-	margin: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 .kopfzeile {
@@ -98,21 +101,6 @@ p::first-letter {
 p:empty:not(:focus)::before {
   content: attr(data-placeholder);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
