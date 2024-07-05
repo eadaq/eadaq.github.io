@@ -7,12 +7,9 @@
         <link rel="stylesheet" href="style.css"/> 
     </head>
     <body>
-    	<div style="height: 20%; width: 100%; border-radius: 0px; background-color: white;">
-    	<div style="width: 100%; height: 50%; background-color: white; text-align:center;">
-    		<span class="a">W</span><span class="b">i</span><span class="a">m</span><span class="b">b</span><span class="a">l</span><span class="b">e</span><span class="a">d</span><img src="https://upload.wikimedia.org/wikipedia/fr/5/50/Logo_Wimbledon.svg" height="45px" style="vertical-align: middle; transform: translateY(-17px);"><span class="a">n</span>
-    	</div>
+    	<div style="height: 10%; width: 100%; border-radius: 0px; background-color: white;">
     
-	<div style="width: 100%; height: 50%;">
+	<div style="width: 100%; height: 100%;">
 		<div style="	width:100%;
 				height: 100%;
 				display: inline-grid;
@@ -50,7 +47,7 @@
 		
 	<div class="page wta" style="	
 					width: 100%; 
-					height: 80%;  
+					height: 90%;  
 					">
 		<div style="	overflow: scroll;
 				height: 100%;
@@ -113,7 +110,7 @@
 	
 	<div class="page wta" style="	 
 					width: 100%; 
-					height: 80%;  
+					height: 90%;  
 					">
 		<div style="		height: 100%;
 						position: relative;
@@ -144,7 +141,7 @@
 	
 	<div class="page wta" style="	 
 					width: 100%; 
-					height: 80%;  
+					height: 90%;  
 					">
 		<div style="		height: 100%;
 						position: relative;
@@ -168,7 +165,7 @@
 	
 	<div class="page wta" style="	 
 					width: 100%; 
-					height: 80%;  
+					height: 90%;  
 					">
 		<div style="		height: 100%;
 						position: relative;
@@ -190,7 +187,7 @@
 	
 	<div class="page atp" style="	 
 					width: 100%; 
-					height: 80%;  
+					height: 90%;  
 					">
 		<div style="	overflow: scroll;
 				height: 100%;
@@ -253,7 +250,7 @@
 	
 	<div class="page atp" style="	 
 					width: 100%; 
-					height: 80%;  
+					height: 90%;  
 					">
 		<div style="		height: 100%;
 						position: relative;
@@ -284,7 +281,7 @@
 	
 	<div class="page atp" style="	 
 					width: 100%; 
-					height: 80%;  
+					height: 90%;  
 					">
 		<div style="		height: 100%;
 						position: relative;
@@ -308,7 +305,7 @@
 	
 	<div class="page atp" style="	 
 					width: 100%; 
-					height: 80%;  
+					height: 90%;  
 					">
 		<div style="		height: 100%;
 						position: relative;
@@ -327,7 +324,7 @@
 	</div>
 	
 	<div class="loader" style="	width: 100%; 
-					height: 80%; 
+					height: 90%; 
 					position: absolute; 
 					top: 20%;
 					background-color: #0d0d0d; 
@@ -519,7 +516,7 @@
 		let p = document.querySelectorAll('p')
 		var config = { attributes: true, childList: true, subtree: true, characterDataOldValue: true };
 		var observer = new MutationObserver((list) => {
-  			history.pushState({}, null, "file:///home/eada/Desktop/github/eadaq.github.io/index.html?" + decode());
+  			history.pushState({}, null, "https://github/eadaq.github.io/index.html?" + decode());
 		});
 		for (let i=0; i < p.length; i++){
 			observer.observe(p[i], config);
@@ -543,7 +540,7 @@
 			try {
 	  			encode(window.location.href);
 	  		} catch (exceptionVar) {
-	  			history.pushState({}, null, "file:///home/eada/Desktop/github/eadaq.github.io/index.html?");
+	  			history.pushState({}, null, "https://eadaq.github.io/index.html?");
 	  		}
 		});
 		
