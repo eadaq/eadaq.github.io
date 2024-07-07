@@ -30,12 +30,14 @@ p {
 	-webkit-appearance: none;
 	-webkit-user-select: initial !important;
 	font-family: Arial;
+	color: white;
 }
 
 p:empty:not(:focus)::before {
   content: attr(data-placeholder);
   -webkit-user-select: initial !important; 
   font-family: Arial;
+  color: white;
 }
 
 table {
@@ -111,6 +113,7 @@ p::first-letter {
 	font-size: 15px;
 	vertical-align: text-top;
 	font-family: Arial;
+	color: white;
 }
 
 
