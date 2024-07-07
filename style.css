@@ -28,12 +28,14 @@ p {
 	font-size: 10px;
 	text-align: left;
 	-webkit-appearance: none;
-	-webkit-user-select: initial !important; 
+	-webkit-user-select: initial !important;
+	font-family: Arial;
 }
 
 p:empty:not(:focus)::before {
   content: attr(data-placeholder);
   -webkit-user-select: initial !important; 
+  font-family: Arial;
 }
 
 table {
@@ -108,6 +110,7 @@ td {
 p::first-letter {
 	font-size: 15px;
 	vertical-align: text-top;
+	font-family: Arial;
 }
 
 
