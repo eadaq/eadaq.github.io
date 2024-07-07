@@ -140,7 +140,7 @@ input[type=radio] {
             			font-weight: 900;
 }
 
--webkit-outer-spin-button {
+p::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
